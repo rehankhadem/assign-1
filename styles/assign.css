@@ -23,6 +23,11 @@
   font-weight: bold;
   cursor: pointer;
 }
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4e47ff 0%, #ff6fd8 100%);
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.25);
+}
 body {
   margin: 0;
   padding: 0;
@@ -50,7 +55,7 @@ nav {
   align-items: center;
   padding: 50px 150px 0 150px;
   gap: 909px;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 .nav-btn {
   width: 132px;
@@ -126,7 +131,6 @@ nav {
   border-radius: 24px;
   background-color: rgba(78, 71, 255, 0.1);
   text-align: center;
-  margin-bottom: 137px;
 }
 .pu {
   width: 856px;
@@ -163,6 +167,115 @@ nav {
   padding: 0;
 }
 
+/* Users’ Feedback Section */
+.feedback-section {
+  max-width: 1140px;
+  margin: 137px auto 137px;
+  height: 342px;
+}
+.fs-title {
+  color: var(--black);
+  font-size: 42px;
+  font-weight: 700;
+
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.fs-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.fs-card {
+  width: 366.67px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+}
+.fsc-pic {
+  display: flex;
+  gap: 4px;
+  margin: 0;
+}
+.fsc-title {
+  color: rgba(30, 30, 30, 1);
+  font-size: 24px;
+  font-weight: 600;
+  margin: 24px 0 0 0;
+  margin-top: 24px;
+}
+.fsc-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(30, 30, 30, 1);
+  width: 318.67px;
+  margin: 8px 0 24px 0;
+}
+
+/* FSC- Profile */
+.fsc-profile {
+  height: 46px;
+}
+.fsc-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.fscp-pic {
+  border-radius: 50%;
+}
+.fscp-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 1);
+  margin: 0;
+  margin-bottom: 2px;
+}
+.fscp-description {
+  color: rgba(179, 179, 179, 1);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Ready to focus better */
+.focus-better {
+  max-width: 1140px;
+  height: 696.77px;
+  background-color: white;
+  border-radius: 14px;
+  margin: 0 auto;
+  padding: 71px 150px;
+  text-align: center;
+}
+.fb-title {
+  color: var(--black);
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.fb-description {
+  font-size: 16;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
+.fb-btn {
+  width: 195px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fb-pic {
+  width: 840px;
+  align-items: center;
+  margin: 0 auto;
+}
+.fb-pic img {
+  border-radius: 48px;
+}
+
 /* Touch Section */
 .touch-section {
   display: flex;
@@ -193,6 +306,7 @@ input {
   border: none;
   outline: none;
   padding-left: 32px;
+  font-size: 1.2rem;
 }
 
 input::placeholder {
@@ -207,6 +321,7 @@ textarea {
   outline: none;
   padding-left: 32px;
   padding-top: 19px;
+  font-size: 1.2rem;
 }
 textarea::placeholder {
   color: rgba(0, 0, 0, 0.5);
